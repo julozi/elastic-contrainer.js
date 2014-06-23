@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html style="height: 100%;">
+<head>
+	<title>.ech-* class examples</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="../elastic-container.js"></script>
+</head>
+<body style="min-height: 100%; margin: 0;">
+
+	<section style="height: 100%;" class="elastic-container">
+
+		<div style="background-color:red;">
+        	Fixed size content
+    	</div>
+
+	    <div style="background-color:green" class="elastic-content">
+	        Elastic content
+	    </div>
+
+	    <div style="background-color:red; padding: 10px;">
+	        Fixed size content padded
+	    </div>
+
+	    <div style="background-color:green; padding: 10px;" class="elastic-content">
+	        Elastic content padded
+	    </div>
+
+	    <div style="background-color:red;">
+	        Fixed size content
+	    </div>
+
+	    <div style="background-color:green; margin:10px;" class="elastic-content">
+	        Elastic content marged
+	    </div>
+
+	    <div style="background-color:red; margin:10px">
+	        Fixed size content marged
+	    </div>
+
+	    <div style="background-color:blue; padding: 10px;" class="elastic-container elastic-content">
+	        <div style="background-color:red;">
+	            Fixed size content in nested container
+	        </div>
+
+	        <div style="background-color:green" class="elastic-content">
+	            Elastic content in nested container
+	        </div>
+
+	    </div>
+	</section>
+</body>
+</html>
